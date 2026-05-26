@@ -1,0 +1,33 @@
+Created At: 2026-05-25T08:56:48Z
+Completed At: 2026-05-25T08:56:48Z
+File Path: `file:///Users/sudeepacharjee/Desktop/persuaide-home/app/terms/page.tsx`
+Total Lines: 185
+Total Bytes: 24567
+Showing lines 40 to 150
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+40:           <article className="max-w-4xl mx-auto text-left text-slate-600 text-base md:text-lg leading-relaxed whitespace-pre-line">
+41:             {`
+42: Terms of Use 
+43: These Terms of Use ("Terms") govern your access to and use of the PERSUAIDE website (the "Website"), which is operated by Persuaide Software Solutions Pvt. Ltd. (doing business as "PERSUAIDE", "persuaide.ai", "we," "us," or "our").
+44: These Terms apply to all visitors, users, and others who access our Services ("Users" “You” “Your”)
+45: 1. Acceptance of Terms
+46: By accessing or using the Website and/or the PERSUAIDE Platform (collectively, the "Services"), You acknowledge that You have read, understood, and agree to be bound by these Terms, the Privacy Policy, and any additional terms applicable to certain features of the Services, all of which are incorporated into these Terms by reference. By accessing or using the Website, You agree to be bound by these Terms. If You do not agree to these Terms, You are prohibited from using or accessing the Website.
+47: 2. About PERSUAIDE and This Website
+48: PERSUAIDE is an artificial intelligence and behavioural science-powered platform that provides tools for brand campaign creation, creative asset generation, and marketing content optimization, accessible through a subscription model. The Platform is designed as an assistive productivity tool to help marketing professionals, brand managers, agencies, and users streamline creative workflows, improve campaign efficiency, and enhance productivity in branding and marketing-related tasks. PERSUAIDE
+<truncated 17344 bytes>
+sses, or liabilities arise from, relate to, or are attributable to the use of the Services or the automated outputs generated therefrom in a professional capacity, including any reliance placed on outputs without appropriate independent review, validation and professional judgment.
+137: Nothing in this section shall be construed to limit or exclude any liability which cannot be excluded under applicable law.
+138: 12. Termination
+139: 12.1. Termination by User
+140: Customers may cancel their subscription at any time by sending an email to anand@persuaide.ai. Upon termination, access to the platform and any stored Customer Data will be subject to the Data Retention policies set out in these Terms.
+141: 12.2. Termination by PERSUAIDE
+142: PERSUAIDE reserves the right to terminate access at its sole discretion for:
+143: • Breach of these Terms.
+144: • Non-payment of fees.
+145: • Engagement in prohibited actions.
+146: 12.3. Effect of Termination
+147: Upon termination, access to the platform will be revoked, and the User must settle any outstanding payments. Any Customer Data will be handled in accordance with the Privacy Policy, including applicable data retention and deletion practices.
+148: Certain provisions of these Terms, including but not limited to intellectual property, limitation of liability, indemnity, and dispute resolution, shall survive termination.
+149: 13. Indemnification
+150: You agree to defend, indemnify, and hold harmless PERSUAIDE and their affiliates, officers, directors, employees, and agents from and against any third party claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from or related to: (i) Your use of the Website; (ii) Your violation of these Terms; (iii) Your User Submissions; or (iv) Your violation of any law or the rights of any third party.
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
