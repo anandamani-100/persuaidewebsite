@@ -120,9 +120,7 @@ export default function Footer() {
               <a href="/terms" className="hover:text-zinc-300 transition-colors duration-200">
                 Terms of Service
               </a>
-              <a href="/cookies" className="hover:text-zinc-300 transition-colors duration-200">
-                Cookie Policy
-              </a>
+            
             </div>
           </div>
         </div>

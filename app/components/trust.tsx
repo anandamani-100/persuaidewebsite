@@ -52,7 +52,7 @@ export default function Trust() {
 
         {/* Heading */}
         <h2 className="text-[32px] sm:text-4xl md:text-[56px] leading-[1.1] font-bold tracking-tight text-slate-900 max-w-7xl select-none mb-4">
-          Decade of proven <br />
+       Years of proven <br />
           <span className="text-[#0038FF] whitespace-nowrap">behavioral science</span>
         </h2>
 

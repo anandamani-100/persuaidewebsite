@@ -1,0 +1,204 @@
+diff --git a/app/terms/page.tsx b/app/terms/page.tsx
+index fd94802..c470abe 100644
+--- a/app/terms/page.tsx
++++ b/app/terms/page.tsx
+@@ -4,29 +4,29 @@ import Footer from "../components/footer";
+ 
+ export const metadata = {
+   title: "Terms of Service | Persuaide",
+-  description: "Persuaide Terms of Service - Read the terms governing your use of our platform.",
++  description:
++    "Persuaide Terms of Service - Read the terms governing your use of our platform.",
+ };
+ 
+ export default function TermsPage() {
+   return (
+     <main className="flex-1 flex flex-col bg-white font-sans">
+-      {/* Hero Header (Brand Blue Matching Main Theme) */}
+-      <section className="relative pt-40 pb-24 px-6 md:px-8 bg-[#0038FF] overflow-hidden flex flex-col items-center justify-center text-center select-none">
+-        {/* Ultra-premium radial gradient */}
++      {/* Hero Header */}
++      <section className="relative pt-40 pb-24 px-6 md:px-8 bg-[#0038FF] overflow-hidden flex flex-col items-center justify-center text-center">
++        {/* Background Gradient */}
+         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,#0038FF_0%,#002DB3_50%,#001980_100%)] pointer-events-none z-0" />
+-        
+-        {/* Elegant Grid Overlay */}
++
++        {/* Grid Overlay */}
+         <div className="absolute inset-0 bg-grid-pattern opacity-25 pointer-events-none z-10" />
+-        
+-        {/* Header Navigation overlay */}
++
+         <Navbar />
+-        
+-        {/* Content container aligned to center of screen */}
++
+         <div className="relative z-20 max-w-7xl mx-auto mt-8 flex flex-col items-center justify-center text-center">
+           <div className="max-w-3xl text-center">
+             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
+               Terms of Service
+             </h1>
++
+             <p className="text-blue-100/70 text-[12px] md:text-sm font-semibold uppercase tracking-widest">
+               Last Updated: May 2026
+             </p>
+@@ -34,66 +34,96 @@ export default function TermsPage() {
+         </div>
+       </section>
+ 
+-      {/* Content Area aligned to max-w-7xl with centered content block */}
++      {/* Terms Content */}
+       <section className="py-16 md:py-24 px-6 md:px-8 w-full flex-1">
+-        <div className="max-w-7xl mx-auto relative">
+-          
+-          {/* Policy Block POSITIONED in the Center (mx-auto) but with TEXT left-aligned (text-left) */}
+-          <article className="max-w-3xl mx-auto w-full text-left text-slate-600 text-base md:text-lg leading-relaxed space-y-10">
+-            <p>
+-              Welcome to <span className="font-bold text-[#0038FF]">PERSUAIDE</span>. By accessing or utilizing our software solutions, behavioral models, and generation tools, you agree to abide by the terms established below.
+-            </p>
+-
+-            <hr className="border-slate-100 w-full" />
+-
+-            {/* Section 1 */}
+-            <div className="space-y-4 w-full">
+-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">1. Acceptance & Agreement</h2>
+-              <p>
+-                By creating a workspace or using our API endpoints, you confirm acceptance of these Terms and agree to comply with applicable regulatory frameworks. If entering into this agreement on behalf of an organization, you certify authorized signing capacity.
+-              </p>
+-            </div>
+-
+-            {/* Section 2 */}
+-            <div className="space-y-4 w-full">
+-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">2. Workspace & Acceptable Use</h2>
+-              <p>
+-                You maintain full liability for credentials and activity executed within your assigned workspaces. Prohibited conduct incorporates:
+-              </p>
+-              <ul className="list-disc pl-5 space-y-2 mt-2 text-slate-600 marker:text-[#0038FF]">
+-                <li>Reverse engineering behavioural science weights or platform infrastructure.</li>
+-                <li>Extracting model assets or outputs to develop competing software.</li>
+-                <li>Generating campaigns facilitating deceptive or illegal activities.</li>
+-              </ul>
+-            </div>
++        <div className="max-w-7xl mx-auto">
++To provide its comprehensive suite of brand campaign creation technology tools, PERSUAIDE utilizes a hybrid infrastructure consisting of proprietary in-house behavioural science knowledge and methods, and external third-party AI service providers. By using the platform, you authorize the processing of data through these systems as necessary to deliver the requested automated outputs and platform functionalities. Interaction data may be used to monitor platform performance and improve the efficiency of our services. As these external AI providers operate as independent entities, you acknowledge that PERSUAIDE liability for the internal operations or policies of these third-party systems is limited to the extent permitted by law. All processing within systems under PERSUAIDE direct control is performed strictly according to User instructions and the functional requirements of the Platform. Upon termination of your subscription, Customer Data will not be retained, except as required for compliance with applicable law, enforcement of legal rights, or for limited archival and backup purposes in accordance with standard data retention practices.
++6.3. Data Security
++PERSUAIDE employs reasonable security practices and procedures consistent with applicable law, including the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 and the Digital Personal Data Protection Act, 2023 ("DPDPA"), to protect Customer Data from unauthorized access, loss, or misuse. Users remain responsible for ensuring that their use of the platform, including any data uploaded or processed by them, complies with applicable privacy and data protection laws.
++7. Limitation of Liability
++To the fullest extent permitted by applicable law, PERSUAIDE shall not be liable for any indirect, incidental, consequential, special, or punitive damages, including loss of data, loss of business opportunities, loss of goodwill, or loss of profits, arising out of or in connection with Your use of, or inability to use, the Services, even if PERSUAIDE has been advised of the possibility of such damages.
++To the fullest extent permitted by applicable law, PERSUAIDE total aggregate liability arising out of or in connection with the Services or these Terms shall not exceed the total subscription fees actually paid by You to PERSUAIDE during a maximum of twelve (12) months immediately preceding the event giving rise to the claim.
++Nothing in this section shall exclude or limit liability arising from fraud, wilful misconduct, breach of confidentiality, or any liability which cannot be excluded or limited under applicable law.
++8. Privacy Policy
++Your use of this Website is also governed by our Privacy Policy, which outlines how we collect, use, and protect your personal information. You consent to all actions taken by us with respect to your information in compliance with the Privacy Policy.
++9. User Submissions
++If you submit any information to us through contact forms, demo requests, or other interactive features ("User Submissions"), you grant PERSUAIDE a non-exclusive, worldwide, royalty-free, license to use that information solely for the purpose of responding to your inquiry, providing you with our services, and improving our offerings.
++You represent and warrant that you have all necessary rights, consents, and authorisations to provide your User Submissions and that the information contained therein is accurate, current, and does not violate any applicable law or the rights of any third party. To the extent permitted by applicable law and subject to any confidentiality obligations expressly agreed in writing between you and PERSUAIDE, you acknowledge that such User Submissions may be processed by the Services for the purposes set out in these Terms and the Privacy Policy.
++10. Third-Party Links
++The Website and automated outputs may contain links to third-party websites or services that are not owned or controlled by PERSUAIDE. We provide these links for your convenience only and do not endorse or assume any responsibility for the content, privacy policies, or practices of any third-party websites. You access any such third-party links entirely at your own risk.
++11. Disclaimer of Warranties 
++11.1. Service Limitations and Availability
++The Services are continuously evolving and may include features that are under development, subject to modification, or not fully optimised. While the Services are designed to be functional and reliable, they may contain bugs, errors, or limitations, and certain functionalities may be modified, updated, or discontinued at any time at our sole discretion without prior notice, where reasonably necessary. We do not guarantee that all features will be available at all times or that the Services will operate without interruption or error. Any such limitations shall be subject to the limitations of liability set out in these Terms.
++The Services utilise automated and probabilistic systems and may generate outputs that are inaccurate, incomplete, or not fully reliable. You agree that you will not rely solely on the Services for any brand strategy, campaign execution, creative finalisation, or professional decision-making, and You remain responsible for independently reviewing, verifying, and assessing all outputs prior to use including but not limited to compliance with applicable advertising standards and intellectual property laws.
++11.2. No Marketing Strategy or Branding Advice
++The Services do not constitute branding/marketing strategy advice. All outputs are for informational assistance only and must be reviewed by a qualified professional.
++PERSUAIDE is not a marketing or branding firm and does not create any client service relationship with its Users. Use of the Services does not create any advisory, fiduciary, or professional relationship between You and PERSUAIDE.
++As described above, the Services utilise automated and probabilistic systems and may generate outputs that are inaccurate, incomplete, or not tailored to Your specific branding, marketing, or commercial circumstances.
++PERSUAIDE makes no representation, warranty, or guarantee, whether express or implied, that any output generated by the Platform is or will be:
++(a) accurate, complete, current, or error-free;
++(b) compliant with any applicable law, regulation, or industry standard, including but not limited to the Trade Marks Act, 1999, the Copyright Act, 1957, the Consumer Protection Act, 2019, the Information Technology Act, 2000, or the Advertising Standards Council of India (ASCI) Code;
++(c) free from intellectual property infringement, including trade mark, copyright, or passing-off claims;
++(d) suitable, appropriate, or fit for any particular purpose, campaign, audience, or medium; or
++(e) aligned with any applicable sector-specific guidelines, including those issued by SEBI, IRDAI, FSSAI, MCI, or any other regulatory body relevant to the user's industry.
++The Platform's role is limited to generating outputs basis the prompts and inputs provided by the user. The quality, accuracy, and compliance of any output is directly dependent on the quality of the inputs provided, and PERSUAIDE shall bear no responsibility for outputs generated on the basis of incomplete, inaccurate, or misleading inputs.
++All users, whether marketing agencies, independent professionals, or businesses, using the Platform directly, are solely responsible for:
++(a) reviewing, verifying, and independently assessing all outputs generated by the Services prior to any use, publication, or sharing with any third party;
++(b) exercising independent judgment and, where applicable, obtaining appropriate professional or legal advice before acting on or relying upon any output;
++(c) ensuring that all outputs comply with applicable laws and regulations, including but not limited to the Trade Marks Act, 1999, the Copyright Act, 1957, and the Consumer Protection Act, 2019;
++(d) ensuring compliance with applicable self-regulatory codes and guidelines, including the ASCI Code, and any sector-specific advertising standards, platform policies, or professional conduct norms relevant to the user's industry; and
++(e) obtaining all necessary clearances, approvals, or third-party consents including intellectual property clearances before publishing or deploying any output.
++Users are further reminded that the ASCI Code places specific obligations on advertisers in relation to truthful representation, substantiation of claims, and responsible communication to consumers. PERSUAIDE does not warrant that any output meets these standards, and users must independently ensure compliance before publication.
++Except as expressly set out in these Terms, the Website and all automated outputs are provided on an "as is" and "as available" basis. 
++We do not warrant that the Website or Services will be accurate, complete, reliable, error-free, or uninterrupted, that defects will be corrected, or that the Website or the servers that make them available are free of viruses or other harmful components.
++The Services shall not be construed, interpreted, or relied upon as advice, counsel, opinion, or recommendations, and You agree not to use the Services as a substitute for qualified professionals. At our sole discretion, we may update or modify the underlying logic or data sources of the Services without notice. PERSUAIDE does not warrant the correctness, enforceability, or suitability of any outputs for any branding or campaign purposes.
++11.3. Professional Use and Risk Allocation
++Where the Services are used by professionals, you acknowledge and agree that the Services are intended solely as an assistive tool and do not replace the exercise of independent professional judgment. You remain solely responsible for all professional decisions, advice, creatives, presentations, made to clients or the larger audiences of your brand.
++Without limiting the foregoing, You agree that:
++• You will independently review, verify, and validate all outputs generated by the Services prior to any use or reliance;
++• You will ensure that all outputs are accurate, complete, and compliant with applicable laws, do not lead to any IP infringement, and are in accordance with applicable industry standards; and
++• You will exercise your own professional skill, care, and diligence in all matters in which the Services are used.
++To the fullest extent permitted by applicable law, PERSUAIDE shall not be responsible or liable to the extent that any claims, losses, or liabilities arise from, relate to, or are attributable to the use of the Services or the automated outputs generated therefrom in a professional capacity, including any reliance placed on outputs without appropriate independent review, validation and professional judgment.
++Nothing in this section shall be construed to limit or exclude any liability which cannot be excluded under applicable law.
++12. Termination
++12.1. Termination by User
++Customers may cancel their subscription at any time by sending an email to anand@persuaide.ai. Upon termination, access to the platform and any stored Customer Data will be subject to the Data Retention policies set out in these Terms.
++12.2. Termination by PERSUAIDE
++PERSUAIDE reserves the right to terminate access at its sole discretion for:
++• Breach of these Terms.
++• Non-payment of fees.
++• Engagement in prohibited actions.
++12.3. Effect of Termination
++Upon termination, access to the platform will be revoked, and the User must settle any outstanding payments. Any Customer Data will be handled in accordance with the Privacy Policy, including applicable data retention and deletion practices.
++Certain provisions of these Terms, including but not limited to intellectual property, limitation of liability, indemnity, and dispute resolution, shall survive termination.
++13. Indemnification
++You agree to defend, indemnify, and hold harmless PERSUAIDE and their affiliates, officers, directors, employees, and agents from and against any third party claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from or related to: (i) Your use of the Website; (ii) Your violation of these Terms; (iii) Your User Submissions; or (iv) Your violation of any law or the rights of any third party.
++14. Modifications to the Terms
++We reserve the right to modify or replace these Terms at any time in our sole and absolute discretion. We will post the updated Terms on this page and indicate the "Last Updated" date at the top. We will provide reasonable notice of any material changes to these Terms, where feasible.
++Your continued use of the Website after any such changes constitutes Your acceptance of the new Terms.
++15. Governing Law and Jurisdiction
++These Terms of Use are governed by and construed in accordance with the laws of India. Any disputes arising from or related to Your use of the Website shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra, India. Parties will attempt amicable resolution before seeking legal recourse.
++16. General Provisions
++• Force Majeure: PERSUAIDE shall not be liable for any failure or delay in the performance of its obligations under these Terms if such failure or delay is caused by events beyond its reasonable control, including but not limited to acts of God, flood, fire, earthquake, war, terrorism, riot, civil unrest, pandemic, epidemic, national emergency, strikes, labor disputes, telecommunication or internet outages, power failures, or acts of government authorities.
++• Severability: If any provision of these Terms is held by a court to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
++• Waiver: No waiver by PERSUAIDE of any term or condition set forth in these Terms shall be deemed a further or continuing waiver of such term or condition.
++• Entire Agreement: These Terms and our Privacy Policy constitute the entire agreement between You and PERSUAIDE regarding Your use of the Website and supersede all prior and contemporaneous understandings.
++17. Grievance Officer
++In accordance with India's Information Technology Act, 2000, and the rules thereunder, the designated Grievance Officer is:
++• Name: Anand Damani
++• Designation: Grievance Officer
++• Email: anand@persuaide.ai
++Upon receipt of a complaint, the Grievance Officer shall acknowledge the same within forty-eight (48) hours and endeavour to resolve the complaint within fifteen (15) calendar days of its receipt.
++Please contact the Grievance Officer for any complaints or concerns about these Terms of Use.
++18. Contact Us
++If You have any questions or concerns about these Terms of Use, please contact us at:
++• Company: Persuaide Software Solutions Pvt. Ltd.
++• Address: 501 Glamourglen, Ambedkar road, Bandra W, Mumbai - 400050, Maharashtra, India.
++• Email: anand@persuaide.ai
++ 
+ 
+-            {/* Section 3 */}
+-            <div className="space-y-4 w-full">
+-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">3. Intellectual Property</h2>
+-              <p>
+-                PERSUAIDE retains fully exclusive ownership of underlying platform architectures, logos, behavioral science insights, models, and generated layouts. While you retain ownership rights over campaign input copy, Persuaide owns the technological architecture enabling generation.
+-              </p>
+-            </div>
+ 
+-            {/* Section 4 */}
+-            <div className="space-y-4 w-full">
+-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">4. Warranties & Liability Limit</h2>
+-              <p>
+-                PERSUAIDE services are furnished "As Is" without implicit performance or conversion guarantees. Campaign performance relies extensively on contextual factors. PERSUAIDE maximum aggregate liability for claims is limited to total fees paid in the 12 months preceding.
+-              </p>
+-            </div>
+ 
+-            {/* Section 5 */}
+-            <div className="space-y-4 w-full">
+-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">5. Account Termination</h2>
+-              <p>
+-                We reserve fundamental rights to restrict, freeze, or terminate account access immediately without notification upon material breach of Acceptable Use restrictions or compliance obligations. 
+-              </p>
+-              <p>
+-                If you have queries about legal status, please write directly: <br />
+-                <a href="mailto:anand@persuaide.ai" className="text-[#0038FF] font-bold hover:underline">anand@persuaide.ai</a>
+-              </p>
+-            </div>
++`}
+           </article>
+         </div>
+       </section>
+@@ -101,4 +131,4 @@ export default function TermsPage() {
+       <Footer />
+     </main>
+   );
+-}
++}
+\ No newline at end of file
