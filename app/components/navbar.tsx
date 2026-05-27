@@ -240,7 +240,7 @@ export default function Navbar() {
               <div className="border-beam-spinner" />
 
               <div className="border-beam-content">
-                Email us
+                Email Us
               </div>
             </Link>
           </div>
