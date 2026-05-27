@@ -113,14 +113,14 @@ export default function Hero() {
         </p>
 
         {/* CTA Button with Modern Border Beam Animation */}
-        <div className="pointer-events-auto mt-4">
+        {/* <div className="pointer-events-auto mt-4">
           <a href="#contact" className="border-beam-container">
             <div className="border-beam-spinner" />
             <div className="border-beam-content !text-base !px-9 !py-3.5">
               Log in
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

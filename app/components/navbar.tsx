@@ -146,14 +146,14 @@ export default function Navbar() {
           </div>
 
           {/* Right Actions */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-5">
             {/* Desktop Button */}
             <div className="hidden md:flex items-center">
-              <Link href="/#contact" className="border-beam-container">
+              <Link href="mailto:anand@persuaide.ai" className="border-beam-container h-10 md:h-12">
                 <div className="border-beam-spinner" />
 
                 <div className="border-beam-content">
-                  Log in
+                  Email us
                 </div>
               </Link>
             </div>
@@ -161,7 +161,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden flex items-center justify-center w-10 h-10 rounded-full text-blue-100/80 hover:text-white hover:bg-white/10 transition-colors duration-200"
+              className="md:hidden flex items-center justify-center w-10 h-9 md:h-12 rounded-full text-blue-100/80 hover:text-white hover:bg-white/10 transition-colors duration-200"
               aria-label="Toggle Menu"
             >
               {isOpen ? (
@@ -233,14 +233,14 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/#contact"
+              href="mailto:anand@persuaide.ai"
               onClick={() => setIsOpen(false)}
-              className="border-beam-container mt-6 scale-110"
+              className="border-beam-container mt-6 scale-180 h-9 md:h-12"
             >
               <div className="border-beam-spinner" />
 
               <div className="border-beam-content">
-                Log in
+                Email us
               </div>
             </Link>
           </div>

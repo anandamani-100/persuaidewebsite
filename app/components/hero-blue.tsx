@@ -110,14 +110,14 @@ export default function HeroBlue() {
         </p>
 
         {/* CTA Button with Modern Border Beam Animation matching light context */}
-        <div className="pointer-events-auto mt-2">
+        {/* <div className="pointer-events-auto mt-2">
           <a href="#contact" className="border-beam-container-harmonized">
             <div className="border-beam-spinner-harmonized" />
             <div className="border-beam-content-harmonized !text-base !px-9 !py-3.5">
               Log in
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
