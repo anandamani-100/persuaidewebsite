@@ -23,8 +23,11 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="icon" href="/svg.png" type="image/png" />
+        <link rel="shortcut icon" href="/svg.png" />
+      </head>
       <body className="min-h-full flex flex-col font-sans">{children}</body>
     </html>
   );
 }
-
