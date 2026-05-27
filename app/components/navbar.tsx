@@ -235,7 +235,7 @@ export default function Navbar() {
             <Link
               href="mailto:anand@persuaide.ai"
               onClick={() => setIsOpen(false)}
-              className="border-beam-container mt-6 scale-180 h-9 md:h-12"
+              className="border-beam-container mt-6  h-9 md:h-12"
             >
               <div className="border-beam-spinner" />
 
