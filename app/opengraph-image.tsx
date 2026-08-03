@@ -19,7 +19,8 @@ export default function Image() {
         style={{
           width: "100%",
           height: "100%",
-          background: "#000000",
+          backgroundColor: "#0038FF",
+          backgroundImage: "radial-gradient(circle at 50% 30%, #0038FF 0%, #002DB3 50%, #001980 100%)",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
