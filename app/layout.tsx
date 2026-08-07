@@ -19,11 +19,20 @@ export const metadata: Metadata = {
     title: "Persuaide",
     description: "Persuasive campaigns in seconds",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Persuaide - Persuasive campaigns in seconds",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Persuaide",
     description: "Persuasive campaigns in seconds",
+    images: ["/twitter-image"],
   },
 };
 
