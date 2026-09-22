@@ -23,7 +23,7 @@ const carouselImages = [
 
 const points = [
   {
-    title: "WhatsApp, SMS & RCS campaigns in seconds",
+    title: "WhatsApp, RCS, Social media and SMS  campaigns",
     desc: "Generate multi-channel persuasive campaigns ready to launch instantly",
     icon: (
       <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
